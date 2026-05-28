@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenZ Mental Shield - Bảo Hiểm Sức Khỏe Tinh Thần Đầu Tiên Cho Giới Trẻ</title>
+    <!-- Tailwind CSS để tạo giao diện nhanh & hiện đại -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center gap-2">
+                    <div class="bg-teal-600 text-white p-2 rounded-xl font-black tracking-wider text-sm">GZ</div>
+                    <span class="text-xl font-extrabold text-slate-900 tracking-tight">Mental<span class="text-teal-600">Shield</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium text-sm text-slate-600">
+                    <a href="#about" class="hover:text-teal-600 transition">Về sản phẩm</a>
+                    <a href="#benefits" class="hover:text-teal-600 transition">Gói quyền lợi</a>
+                    <a href="#underwriting" class="hover:text-teal-600 transition">Thẩm định nhanh</a>
+                    <a href="#calculator" class="hover:text-teal-600 transition">Tính phí</a>
+                </div>
+                <div>
+                    <a href="#calculator" class="bg-teal-600 hover:bg-teal-700 text-white text-sm font-semibold px-5 py-2.5 rounded-full shadow-sm transition">
+                        Nhận báo phí
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="about" class="relative overflow-hidden bg-gradient-to-b from-teal-50/50 via-white to-slate-50 py-20 lg:py-28">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-teal-100 text-teal-800">
+                    🛡️ Tiên phong tại Việt Nam bởi Nhóm 6789 (UEH)
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-tight">
+                    Tấm khiên tâm lý vững vàng cho <span class="text-teal-600">Thế hệ GenZ</span>
+                </h1>
+                <p class="text-lg text-slate-600 leading-relaxed">
+                    Đừng để áp lực học tập, KPI công việc và nỗi lo định hướng làm mờ đi nụ cười của bạn. <strong>GenZ Mental Shield</strong> đồng hành chia sẻ chi phí tham vấn và trị liệu tâm lý chuyên nghiệp.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#benefits" class="bg-slate-900 hover:bg-slate-800 text-white font-semibold px-6 py-3.5 rounded-xl shadow-md transition">
+                        Khám phá các gói bảo hiểm
+                    </a>
+                    <a href="#underwriting" class="bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 font-semibold px-6 py-3.5 rounded-xl shadow-sm transition">
+                        Đăng ký App 5 bước
+                    </a>
+                </div>
+            </div>
+            <div class="relative flex justify-center">
+                <!-- Mô phỏng màn hình App Điện thoại tiện ích cho GenZ -->
+                <div class="w-72 h-[550px] bg-slate-900 rounded-[40px] shadow-2xl p-3.5 border-4 border-slate-800 relative z-10">
+                    <div class="w-full h-full bg-white rounded-[32px] overflow-hidden flex flex-col justify-between p-5 relative">
+                        <!-- Thẻ góc trên -->
+                        <div class="flex justify-between items-center text-xs text-slate-400">
+                            <span>09:41</span>
+                            <div class="flex gap-1"><i class="fas fa-signal"></i><i class="fas fa-wifi"></i><i class="fas fa-battery-full"></i></div>
+                        </div>
+                        <!-- Nội dung app mô phỏng -->
+                        <div class="my-auto space-y-4 text-center">
+                            <div class="w-16 h-16 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center text-2xl mx-auto shadow-inner">
+                                <i class="fa-solid mt-0.5 fa-heart-pulse animate-pulse"></i>
+                            </div>
+                            <h4 class="font-bold text-slate-900 text-base">Trợ lý Tinh thần GenZ</h4>
+                            <p class="text-xs text-slate-500">Bạn đang gặp áp lực? Kết nối ngay với mạng lưới chuyên gia Safespace, Mindcare...</p>
+                            <div class="bg-slate-50 p-3 rounded-xl border border-slate-100 text-left">
+                                <div class="flex justify-between text-[11px] font-bold text-slate-700 mb-1">
+                                    <span>Gói: Mind-Chill</span>
+                                    <span class="text-teal-600">8 phiên/năm</span>
+                                </div>
+                                <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
+                                    <div class="bg-teal-500 h-full w-3/4"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="w-full bg-teal-600 text-white text-xs font-semibold py-3 rounded-xl shadow-md shadow-teal-100">
+                            Bảo lãnh viện phí 80% tại App
+                        </button>
+                    </div>
+                </div>
+                <!-- Vòng tròn trang trí phía sau -->
+                <div class="absolute w-80 h-80 bg-teal-200 rounded-full blur-3xl opacity-40 -top-5 -right-5"></div>
+                <div class="absolute w-80 h-80 bg-amber-200 rounded-full blur-3xl opacity-30 -bottom-10 -left-10"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- CORE FEATURES (MANAGED CARE MODEL) -->
+    <section class="py-16 bg-white border-y border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Mô hình Managed Care đột phá</h2>
+                <p class="text-slate-500 mt-2 text-sm sm:text-base">Không đi theo lối mòn bồi hoàn truyền thống, chúng tôi tối ưu chi phí thông qua hệ sinh thái thông minh.</p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-6 bg-slate-50 rounded-2xl hover:shadow-md transition">
+                    <div class="text-teal-600 text-xl mb-3"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3 class="font-bold text-slate-900 mb-1.5 text-base">Preferred Provider Network</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Bảo lãnh trực tiếp tại các phòng khám uy tín (Safespace, Mindcare...) không cần trả tiền trước.</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl hover:shadow-md transition">
+                    <div class="text-teal-600 text-xl mb-3"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                    <h3 class="font-bold text-slate-900 mb-1.5 text-base">Khấu hao cố định (Deductible)</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Áp dụng mức khấu hao hợp lý 100.000 VNĐ/phiên giúp loại bỏ các yêu cầu trục lợi nhỏ, tối ưu phí đóng.</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl hover:shadow-md transition">
+                    <div class="text-teal-600 text-xl mb-3"><i class="fa-solid fa-percent"></i></div>
+                    <h3 class="font-bold text-slate-900 mb-1.5 text-base">Đồng bảo hiểm 20/80</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">Khách hàng đồng chi trả 20% giúp nâng cao trách nhiệm cá nhân và tối ưu hóa lộ trình trị liệu.</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl hover:shadow-md transition">
+                    <div class="text-teal-600 text-xl mb-3"><i class="fa-solid fa-hourglass-half"></i></div>
+                    <h3 class="font-bold text-slate-900 mb-1.5 text-base">Thời gian chờ linh hoạt</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed">0 ngày đối với khủng hoảng cấp tính, 30 ngày cho căng thẳng/lo âu thông thường, và 180 ngày cho tâm thần lâm sàng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCHEDULE OF BENEFITS SUMMARY (TABLE) -->
+    <section id="benefits" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Thiết kế 3 gói bảo hiểm chuyên biệt</h2>
+                <p class="text-slate-500 mt-3 text-sm sm:text-base">Lựa chọn tấm khiên phù hợp nhất với nhu cầu và ngân sách của bạn.</p>
+            </div>
+            
+            <div class="overflow-x-auto bg-white rounded-2xl shadow-sm border border-slate-200">
+                <table class="w-full text-left border-collapse min-w-[700px]">
+                    <thead>
+                        <tr class="bg-slate-900 text-white text-xs uppercase tracking-wider">
+                            <th class="p-4 rounded-tl-2xl">Quyền lợi thành phần</th>
+                            <th class="p-4 bg-teal-800 text-center">Mind-Chill <br><span class="text-[10px] text-teal-200 lowercase">Sinh viên & Áp lực học đường</span></th>
+                            <th class="p-4 bg-teal-700 text-center">Mind-Balance <br><span class="text-[10px] text-teal-100 lowercase">Người đi làm & Burnout</span></th>
+                            <th class="p-4 bg-teal-600 text-center rounded-tr-2xl">Mind-Shield <br><span class="text-[10px] text-teal-100 lowercase">Hỗ trợ chuyên sâu điều trị trị liệu</span></th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-xs sm:text-sm divide-y divide-slate-100 text-slate-700 font-medium">
+                        <tr>
+                            <td class="p-4 font-bold text-slate-900 bg-slate-50/50">Đánh giá tâm lý ban đầu</td>
+                            <td class="p-4 text-center">2 bài test định lượng/năm</td>
+                            <td class="p-4 text-center">3 bài test định lượng/năm</td>
+                            <td class="p-4 text-center text-teal-600 font-semibold">Không giới hạn số bài test</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-slate-900 bg-slate-50/50">Hạn mức khám ban đầu</td>
+                            <td class="p-4 text-center">160.000 VND</td>
+                            <td class="p-4 text-center">400.000 VND</td>
+                            <td class="p-4 text-center">560.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-slate-900 bg-slate-50/50">Hình thức Trị liệu tâm lý</td>
+                            <td class="p-4 text-center text-amber-600">Chỉ Telehealth (Online)</td>
+                            <td class="p-4 text-center">Trực tiếp & Telehealth</td>
+                            <td class="p-4 text-center">Trực tiếp & Telehealth</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-slate-900 bg-slate-50/50">Hạn mức/Phiên trị liệu</td>
+                            <td class="p-4 text-center">240.000 VND/phiên</td>
+                            <td class="p-4 text-center">480.000 VND/phiên</td>
+                            <td class="p-4 text-center">640.000 VND/phiên</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-slate-900 bg-slate-50/50">Khám chuyên khoa Tâm thần</td>
+                            <td class="p-4 text-center text-slate-400">Không bảo hiểm</td>
+                            <td class="p-4 text-center text-slate-400">Không bảo hiểm</td>
+                            <td class="p-4 text-center text-emerald-600 font-semibold">6.000.000 VND</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-slate-900 bg-slate-50/50">Thuốc kê đơn của bác sĩ</td>
+                            <td class="p-4 text-center text-slate-400">Không bảo hiểm</td>
+                            <td class="p-4 text-center text-slate-400">Không bảo hiểm</td>
+                            <td class="p-4 text-center text-emerald-600 font-semibold">7.200.000 VND/năm</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-slate-900 bg-slate-50/50">Số phiên tối đa/Năm</td>
+                            <td class="p-4 text-center">Tối đa 8 phiên/năm</td>
+                            <td class="p-4 text-center">Tối đa 16 phiên/năm</td>
+                            <td class="p-4 text-center">Tối đa 26 phiên/năm</td>
+                        </tr>
+                        <tr class="bg-teal-50/40 font-bold text-slate-900">
+                            <td class="p-4 bg-slate-100/50">Hạn mức tối đa/Năm</td>
+                            <td class="p-4 text-center text-teal-700">1.840.000 VND/năm</td>
+                            <td class="p-4 text-center text-teal-700">7.600.000 VND/năm</td>
+                            <td class="p-4 text-center text-teal-700">29.760.000 VND/năm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- UNDERWRITING & APP DECLARATION (INTERACTIVE) -->
+    <section id="underwriting" class="py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <span class="text-xs font-bold text-teal-600 uppercase tracking-widest block mb-2">Thẩm định đơn giản (Simplified Underwriting)</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Khai báo sức khỏe 5 câu hỏi nhanh</h2>
+                <p class="text-slate-500 mt-2 text-sm">Không cần hồ sơ bệnh án phức tạp. Hãy trả lời trung thực để hệ thống AI phê duyệt hợp đồng ngay lập tức.</p>
+            </div>
+
+            <!-- Khung khảo sát tương tác trực quan -->
+            <div class="bg-slate-50 p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-inner">
+                <form id="healthForm" class="space-y-6">
+                    <div class="p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
+                        <p class="font-semibold text-sm sm:text-base text-slate-800 mb-3">1. Trong 3 năm qua, bạn đã từng được chẩn đoán hoặc điều trị lâm sàng liên quan đến bất kỳ rối loạn tâm thần nặng nào chưa?</p>
+                        <div class="flex gap-4 text-sm font-medium">
+                            <label class="flex items-center gap-2 cursor-pointer"><input type="radio" name="q1" value="yes" class="accent-teal-600"> Có</label>
+                            <label class="flex items-center gap-2 cursor-pointer"><input type="radio" name="q1" value="no" class="accent-teal-600" checked> Chưa từng</label>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
+                        <p class="font-semibold text-sm sm:text-base text-slate-800 mb-3">2. Bạn có đang lạm dụng hoặc đang phải điều trị cai nghiện chất kích thích/chất gây nghiện nào không?</p>
+                        <div class="flex gap-4 text-sm font-medium">
+                            <label class="flex items-center gap-2 cursor-pointer"><input type="radio" name="q2" value="yes" class="accent-teal-600"> Có</label>
+                            <label class="flex items-center gap-2 cursor-pointer"><input type="radio" name="q2" value="no" class="accent-teal-600" checked> Không</label>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
+                        <p class="font-semibold text-sm sm:text-base text-slate-800 mb-3">3. Bạn hiểu và đồng ý rằng các tình trạng bệnh lý tâm lý có sẵn (đã ghi nhận trước ngày ký hợp đồng) sẽ bị áp dụng điều khoản loại trừ trong năm đầu tiên?</p>
+                        <div class="flex gap-4 text-sm font-medium">
+                            <label class="flex items-center gap-2 cursor-pointer"><input type="radio" name="q3" value="yes" class="accent-teal-600" checked> Tôi đồng ý và hiểu rõ</label>
+                            <label class="flex items-center gap-2 cursor-pointer"><input type="radio" name="q3" value="no" class="accent-teal-600"> Không đồng ý</label>
+                        </div>
+                    </div>
+
+                    <div class="text-center pt-2">
+                        <button type="button" onclick="checkUnderwriting()" class="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 text-white font-bold px-8 py-3.5 rounded-xl transition shadow-md">
+                            Kiểm tra điều kiện tham gia
+                        </button>
+                    </div>
+                </form>
+                
+                <!-- Kết quả hiển thị động bằng JavaScript bên dưới -->
+                <div id="underwritingResult" class="mt-6 hidden p-4 rounded-xl text-center font-bold text-sm"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACTUARIAL PREMIUM CALCULATOR -->
+    <section id="calculator" class="py-20 bg-gradient-to-br from-teal-800 to-slate-900 text-white rounded-t-[40px] sm:rounded-t-[60px]">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="text-teal-300 font-semibold tracking-wider text-xs uppercase block mb-2">Actuarial Pricing Engine</span>
+                <h2 class="text-3xl font-extrabold tracking-tight">Tính toán phí bảo hiểm cá nhân hóa</h2>
+                <p class="text-teal-100/70 mt-2 text-sm">Phí bảo hiểm được phân hóa dựa trên gói sản phẩm, độ tuổi và các giả định tổn thất thực tế.</p>
+            </div>
+
+            <div class="bg-white text-slate-800 p-6 sm:p-10 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8 items-center">
+                <!-- Bộ điều khiển đầu vào -->
+                <div class="space-y-5">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Chọn gói bảo hiểm</label>
+                        <select id="calcPackage" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm font-semibold focus:outline-teal-600" onchange="calculatePremium()">
+                            <option value="chill">Mind-Chill (Hạn mức 1.84M/Năm)</option>
+                            <option value="balance" selected>Mind-Balance (Hạn mức 7.60M/Năm)</option>
+                            <option value="shield">Mind-Shield (Hạn mức 29.76M/Năm)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Độ tuổi của bạn</label>
+                        <input type="number" id="calcAge" value="21" min="18" max="100" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm font-semibold focus:outline-teal-600" oninput="calculatePremium()">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Nhóm đối tượng ưu tiên</label>
+                        <div class="flex gap-4 mt-2">
+                            <label class="flex items-center gap-2 text-sm font-medium cursor-pointer">
+                                <input type="radio" name="studentGroup" value="yes" class="accent-teal-600" checked onchange="calculatePremium()"> Sinh viên (Giảm 10%)
+                            </label>
+                            <label class="flex items-center gap-2 text-sm font-medium cursor-pointer">
+                                <input type="radio" name="studentGroup" value="no" class="accent-teal-600" onchange="calculatePremium()"> Đã đi làm
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kết quả hiển thị phí -->
+                <div class="p-6 bg-teal-50 rounded-2xl border border-teal-100 text-center space-y-4">
+                    <span class="text-xs font-bold uppercase tracking-widest text-teal-800 bg-teal-200/50 px-2.5 py-1 rounded-full">Phí bảo hiểm ước tính</span>
+                    <div class="text-4xl sm:text-5xl font-black text-slate-950 tracking-tight">
+                        <span id="premiumDisplay">350.000</span> <span class="text-sm font-bold text-slate-500">VND/Năm</span>
+                    </div>
+                    <p class="text-xs text-slate-500 leading-relaxed max-w-xs mx-auto">
+                        *Mức phí đã bao gồm Chi phí bồi thường kỳ vọng, Chi phí quản lý doanh nghiệp và Biên dự phòng rủi ro toán học.
+                    </p>
+                    <button class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3.5 rounded-xl shadow-md transition text-sm">
+                        Đăng ký & Thanh toán qua Ví Điện Tử
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 text-xs py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+            <p class="font-bold text-sm text-white">Dự án Nghiên cứu Định phí Sản phẩm Bảo hiểm Sức khỏe Tinh thần</p>
+            <p>Môn học: LONG-TERM ACTUARIAL MATHEMATICS I | Mã lớp học: 26D1MAT50805101</p>
+            <p class="text-teal-400">Nhóm thực hiện: 6789 - SONG BANG TINH CAM (K50 UEH)</p>
+            <div class="text-[11px] text-slate-500 max-w-xl mx-auto border-t border-slate-800/60 pt-4">
+                Giảng viên hướng dẫn: ThS. Bùi Thị Lệ Thủy | Cố vấn chuyên môn:  MR.Đặng Tấn Độ <br>
+                Trường Đại học Kinh tế TP. Hồ Chí Minh (UEH) - Trường Kinh tế, Luật và Quản lý nhà nước.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT LOGIC TRỰC QUAN -->
+    <script>
+        // LÔ-GÍC THẨM ĐỊNH (UNDERWRITING) KHAI BÁO NHANH
+        function checkUnderwriting() {
+            const q1 = document.querySelector('input[name="q1"]:checked').value;
+            const q2 = document.querySelector('input[name="q2"]:checked').value;
+            const q3 = document.querySelector('input[name="q3"]:checked').value;
+            const resultDiv = document.getElementById('underwritingResult');
+            
+            resultDiv.classList.remove('hidden', 'bg-emerald-100', 'text-emerald-800', 'bg-rose-100', 'text-rose-800', 'bg-amber-100', 'text-amber-800');
+            
+            if (q1 === 'yes' || q2 === 'yes') {
+                resultDiv.innerText = "⚠️ Hồ sơ cần thẩm định thủ công bổ sung do có lịch sử rủi ro đặc biệt. Chuyên viên sẽ liên hệ bạn.";
+                resultDiv.classList.add('block', 'bg-amber-100', 'text-amber-800');
+            } else if (q3 === 'no') {
+                resultDiv.innerText = "❌ Bạn cần đồng ý với điều khoản loại trừ bệnh có sẵn để tiếp tục mua bảo hiểm trực tuyến.";
+                resultDiv.classList.add('block', 'bg-rose-100', 'text-rose-800');
+            } else {
+                resultDiv.innerText = "✅ Tuyệt vời! Bạn đủ điều kiện cấp đơn bảo hiểm tức thì cấp tốc trên App.";
+                resultDiv.classList.add('block', 'bg-emerald-100', 'text-emerald-800');
+            }
+        }
+
+        // LÔ-GÍC ĐỊNH PHÍ CƠ BẢN (PREMIUM CALCULATION ENGINE)
+        function calculatePremium() {
+            const pack = document.getElementById('calcPackage').value;
+            const age = parseInt(document.getElementById('calcAge').value) || 20;
+            const isStudent = document.querySelector('input[name="studentGroup"]:checked').value === 'yes';
+            
+            // Định phí gốc tùy gói (Dựa trên chi phí bồi thường kỳ vọng)
+            let basePremium = 250000; // Mặc định gói chill
+            if (pack === 'balance') basePremium = 650000;
+            if (pack === 'shield') basePremium = 1850000;
+            
+            // Biến số rủi ro theo tuổi (Hệ số Actuarial tăng nhẹ theo độ tuổi chịu áp lực công việc)
+            let ageFactor = 1.0;
+            if (age > 22 && age <= 26) ageFactor = 1.15;
+            if (age > 26) ageFactor = 1.3;
+            
+            let finalPremium = basePremium * ageFactor;
+            
+            // Chính sách ưu đãi giảm 10% cho đối tượng Sinh viên (Hỗ trợ cộng đồng GenZ)
+            if (isStudent) {
+                finalPremium = finalPremium * 0.9;
+            }
+            
+            // Định dạng hiển thị chuỗi số tiền Việt Nam Đồng
+            document.getElementById('premiumDisplay').innerText = Math.round(finalPremium).toLocaleString('vi-VN');
+        }
+
+        // Chạy tính toán phí lần đầu ngay khi tải trang xong
+        window.onload = function() {
+            calculatePremium();
+        }
+    </script>
+</body>
+</html>
