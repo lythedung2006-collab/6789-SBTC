@@ -356,7 +356,7 @@
             if (q1 === 'yes' || q2 === 'yes'|| q3 === 'yes') {
                 resultDiv.innerText = "⚠️ Hồ sơ cần thẩm định thủ công bổ sung do có lịch sử rủi ro đặc biệt. Chuyên viên sẽ liên hệ bạn.";
                 resultDiv.classList.add('block', 'bg-amber-100', 'text-amber-800');
-            } else if (q5 === 'no') {
+            } else if (q5 === 'no' || q4 === 'no') {
                 resultDiv.innerText = "❌ Bạn cần đồng ý với điều khoản loại trừ bệnh có sẵn để tiếp tục mua bảo hiểm trực tuyến.";
                 resultDiv.classList.add('block', 'bg-rose-100', 'text-rose-800');
             } else {
